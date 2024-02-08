@@ -33,7 +33,7 @@ const ListItem: React.FC<ListItemProps> = ({
         hover:bg-neutral-100/20 
         pr-4
         transition"
-        onClick={onClick}
+            onClick={onClick}
         >
             <div className="relative min-h-[64px]
             min-w-[64px]">
@@ -56,7 +56,7 @@ const ListItem: React.FC<ListItemProps> = ({
             hover:scale-[105%]
             rounded-full
             ">
-                <FaPlay size={20} className="text-black "/>
+                <FaPlay size={20} className="text-black " />
             </div>
         </button>
     )
