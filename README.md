@@ -35,3 +35,4 @@ Obtain your Supabase API key and URL.
 Create a .env.local file in the root directory and add your Supabase credentials: 
 - NEXT_PUBLIC_SUPABASE_URL=your-supabase-url 
 - NEXT_PUBLIC_SUPABASE_API_KEY=your-supabase-api-key
+- SUPABASE_SERVICE_ROLE_KEY=your-supabase-service-role-key
